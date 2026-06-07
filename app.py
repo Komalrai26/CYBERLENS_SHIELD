@@ -1,6 +1,5 @@
 import streamlit as st
 import pandas as pd
-from engine import analyze_url
 
 # Load your model (ensure model.pkl is in your repo)
 # model = joblib.load('model.pkl')
