@@ -2,7 +2,6 @@ import streamlit as st
 import pandas as pd
 
 # Make sure engine.py is in the same directory as app.py
-from engine import get_prediction 
 
 # ... your UI code ...
 
