@@ -79,6 +79,7 @@ with col3:
 # 5. Diagnostic Input
 st.write("---")
 st.write("### 🔍 URL Diagnostic Input")
+from engine import get_prediction
 
 # 1. Get the URL from the user
 url = st.text_input("Enter URL for detailed diagnostic:", placeholder="https://example.com")
